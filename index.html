@@ -6,7 +6,7 @@
 <title>Qube Technologies — Design Your Home Theatre</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -30,7 +30,7 @@
   body {
     background: var(--black);
     color: var(--text);
-    font-family: 'Mulish', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
   }
@@ -67,8 +67,8 @@
     backdrop-filter: blur(20px);
   }
   .nav-logo {
-    font-family: 'Playfair Display', serif;
-    font-weight: 800; font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700; font-size: 20px;
     letter-spacing: 0.01em; color: var(--text); text-decoration: none;
   }
   .nav-logo span { color: var(--orange); }
@@ -116,8 +116,8 @@
   .eyebrow-line { width: 28px; height: 1px; background: var(--orange); }
 
   .headline {
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-size: clamp(40px, 3.8vw, 62px);
     line-height: 1.02;
     letter-spacing: -0.01em;
@@ -125,8 +125,8 @@
     margin-bottom: 8px;
   }
   .headline-sub {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700; font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600; font-style: italic;
     font-size: clamp(38px, 3.6vw, 58px);
     line-height: 1.02;
     color: var(--orange);
@@ -164,7 +164,7 @@
     pointer-events: none;
   }
   .screen-label {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 700; font-style: italic; font-size: 13px;
     color: rgba(255,122,32,0.4); letter-spacing: 0.08em;
   }
@@ -221,7 +221,7 @@
   .stat-item { flex: 1; }
   .stat-item + .stat-item { padding-left: 24px; border-left: 1px solid var(--border); }
   .stat-num {
-    font-family: 'Playfair Display', serif; font-weight: 900;
+    font-family: 'Cormorant Garamond', serif; font-weight: 700;
     font-size: 26px; color: var(--orange); margin-bottom: 4px;
   }
   .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; line-height: 1.4; }
@@ -248,7 +248,7 @@
     width: 30px; height: 30px; border-radius: 50%;
     background: var(--surface-3); border: 1px solid var(--border);
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Mulish', sans-serif; font-size: 11px; font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif; font-size: 11px; font-weight: 700;
     color: var(--text-muted); transition: all 0.3s; flex-shrink: 0; z-index: 1;
   }
   .step-dot.active { background: var(--orange); border-color: var(--orange); color: #000; }
@@ -261,7 +261,7 @@
   @keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
 
   .form-title {
-    font-family: 'Playfair Display', serif; font-weight: 800;
+    font-family: 'Cormorant Garamond', serif; font-weight: 700;
     font-size: 22px; color: var(--text); margin-bottom: 6px;
   }
   .form-sub { font-size: 13.5px; color: var(--text-dim); margin-bottom: 26px; line-height: 1.65; }
@@ -310,7 +310,7 @@
   .otp-box {
     width: 50px; height: 56px;
     background: var(--surface-2); border: 1.5px solid var(--border);
-    border-radius: 10px; font-family: 'Playfair Display', serif;
+    border-radius: 10px; font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700; font-size: 22px; color: var(--text);
     text-align: center; outline: none;
     transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
@@ -329,7 +329,7 @@
   .otp-meta strong { color: var(--orange); font-weight: 600; }
 
   .resend-btn {
-    background: none; border: none; font-family: 'Mulish', sans-serif;
+    background: none; border: none; font-family: 'IBM Plex Sans', sans-serif;
     font-size: 13px; color: var(--text-muted); cursor: pointer;
     padding: 0; display: block; margin: 0 auto 20px; transition: color .2s;
   }
@@ -340,7 +340,7 @@
     width: 100%; padding: 14px 24px;
     background: var(--orange); color: #000;
     border: none; border-radius: 10px;
-    font-family: 'Mulish', sans-serif; font-weight: 800;
+    font-family: 'IBM Plex Sans', sans-serif; font-weight: 600;
     font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase;
     cursor: pointer; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
     margin-top: 8px; position: relative; overflow: hidden;
@@ -384,7 +384,7 @@
     fill: none; stroke-width: 2.5; position: relative; z-index: 1;
   }
   .success-title {
-    font-family: 'Playfair Display', serif; font-weight: 800;
+    font-family: 'Cormorant Garamond', serif; font-weight: 700;
     font-size: 24px; color: var(--text); margin-bottom: 10px;
   }
   .success-msg { font-size: 14px; color: var(--text-dim); line-height: 1.75; max-width: 300px; margin: 0 auto; }
@@ -551,14 +551,14 @@
           <div class="err-msg" id="err-city">Please select your city</div>
         </div>
         <div class="field">
-          <label for="package">Theatre package interest</label>
-          <select id="package">
-            <option value="" disabled selected>Select a package</option>
-            <option>Essential — Budget under ₹5L</option>
-            <option>Signature — ₹5L to ₹15L</option>
-            <option>Elite — ₹15L to ₹40L</option>
-            <option>Prestige — ₹40L+</option>
-            <option>Not sure, need guidance</option>
+          <label for="timeline">When are you planning the project?</label>
+          <select id="timeline">
+            <option value="" disabled selected>Select a timeline</option>
+            <option>Immediately — Ready to start</option>
+            <option>Within 1 month</option>
+            <option>1 to 3 months</option>
+            <option>3 to 6 months</option>
+            <option>Just exploring for now</option>
           </select>
         </div>
         <div class="field">
@@ -618,8 +618,8 @@
 
 <script>
   // ── Qube Technologies n8n Webhook URLs ──
-  const N8N_SEND_OTP_URL   = 'https://n8n.xerovolt.in/webhook/qube-lead-submit';
-  const N8N_VERIFY_OTP_URL = 'https://n8n.xerovolt.in/webhook/qube-otp-verify';
+  const N8N_SEND_OTP_URL   = 'https://n8n.xerovolt.in/webhook-test/qube-lead-submit';
+  const N8N_VERIFY_OTP_URL = 'https://n8n.xerovolt.in/webhook-test/qube-otp-verify';
   const N8N_RESEND_OTP_URL = 'https://n8n.xerovolt.in/webhook/qube-otp-resend';
 
   let leadData = {};
@@ -638,7 +638,7 @@
       firstName: fname,
       lastName:  document.getElementById('lname').value.trim(),
       email, city,
-      package:  document.getElementById('package').value,
+      package:  document.getElementById('timeline').value,
       message:  document.getElementById('message').value.trim(),
       brand:    'Qube Technologies',
       source:   document.referrer || 'direct',
